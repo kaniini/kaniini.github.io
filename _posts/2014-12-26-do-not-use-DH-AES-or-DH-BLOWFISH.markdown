@@ -33,3 +33,6 @@ Unfortunately, [at least one atheme fork has resurrected this mechanism](https:/
 Hopefully they remove it, as it should be treated as if it were backdoored, because the level of mistakes made
 in designing the mechanism would be the same type of mistakes one would introduce if they wanted to backdoor a
 mechanism.
+
+**Update**: Unfortunately [Anope also implemented these broken mechanisms](http://bugs.anope.org/view.php?id=1631).
+Luckily it appears that X3 has not.
