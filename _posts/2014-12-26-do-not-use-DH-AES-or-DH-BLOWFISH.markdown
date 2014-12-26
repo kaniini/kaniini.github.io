@@ -19,10 +19,10 @@ The reasons why were:
 
 1. Users had a strong misconception that the mechanisms provided better security than PLAIN over TLS (they don't);
 2. Because the DH key exchange is unauthenticated, users may be MITM'd by the IRC daemon;
-3. The session key is the same length as the keyexchange phase, making the entire system symmetric.  DH can only
+3. The session key is half the length as the keyexchange phase, making the entire system weak.  DH can only
    *securely* provide half the bitspace for the session key as the size of key exchange parameters.  Put more plainly:
-   if you use DH in a symmetric manner, *the entire key-exchange is insecure*.
-4. Correcting the key exchange to be asymmetric would require rewriting every single implementation anyway.
+   if you use DH with 256-bit parameters, the session key is 128 bits, which is weaker than PLAIN over TLS.
+4. Correcting the key exchange to use 256-bit keys would require rewriting every single implementation anyway.
 
 If you want secure authentication, just use PLAIN over TLS, or use atheme's experimental family of ECDSA
 mechanisms, namely `ECDSA-NIST256P-CHALLENGE`.  Yes, it's based on sec256p1, which is a NIST curve, but it's
