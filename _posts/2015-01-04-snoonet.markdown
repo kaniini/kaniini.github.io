@@ -1,0 +1,34 @@
+---
+layout: post
+title: "On the topic of Snoonet"
+---
+
+So, there is this network called Snoonet.  People have occasionally asked me what the problem was between
+the Atheme community and Snoonet, so I will attempt to explain it.
+
+When Snoonet first adopted the Atheme platform, they had large ambitions.  At first, the relationship was
+good and productive.  There were a few things we found eyebrow-raising, such as the plans to raise funding
+to pay IRCops for their services (this in itself isn't really that surprising, and other networks running
+on the Atheme platform do operate this way), but they weren't really a major concern to us.
+
+Then towards the beginning of October 2013, Snoonet got a new staffer named "idahodude" (new to us anyway).
+This person came into our channels with the wrong attitude, basically attacking the platform because he couldn't
+be bothered to read any documentation at all, blaming the maxclients setting on his IRCd on the software, instead
+of his misconfiguration.  We went out of our way to explain what rlimits on UNIX are to him, but he still felt
+it was a problem in charybdis, instead of taking a few moments to understand the documentation.  At this point,
+we recommended he hire an admin company to configure his IRC network.  Later we discovered this particular user
+had an agenda to move the network to InspIRCd anyway, which was fine by us if that was going to be the future.
+
+We ultimately wound up banning their admins from our channels, with the exception of MilleniumFalc0n, who seemed
+reasonable enough.  Later Snoonet decided to migrate to Anope when the Atheme maintenance baton was passed over
+to downstream forks, which is fine.  We then decided to ban the last remaining Snoonet participant as frankly,
+we were tired of having to remember that this network existed to begin with and had staff who could not read
+documentation.
+
+tl;dr: IRC network claimed to be a "corporation" (Snoonet, Inc.) and wasn't,
+offered ["paid staff positions"](https://web.archive.org/web/20130421042534/http://www.snoonet.org/updates/11-hiring-support-staff) but not really,
+and generally wasted our time, resulting in their "network director" (some teenaged kid) picking a fight with us.
+
+Anyway, that is all I am going to say on the matter.  Apparently the "network owner" decided to ban me from the
+/r/irc subreddit thingy, while slagging me through the mud, so I figured I would clarify our point of view on
+the comments that he made.
