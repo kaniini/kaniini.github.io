@@ -27,6 +27,8 @@ Historically, the software acting as `ircd` has been derived from IRC 2.8, which
 been proposed over time, but only one of them really took off: [InspIRCd][inspircd], which is now the second-most widely used `ircd` implementation.
 InspIRCd could actually be used for prototyping new features, however, it's written in C++ which makes it intimidating to new developers.
 
+   [inspircd]: http://www.inspircd.org
+
 In fact, InspIRCd has implemented prototypes of many of the features we plan to implement in mammon.  However, it is tied to having to support legacy
 clients and legacy approaches to network and channel management.  This in combination with the C++ codebase makes it a difficult target for prototyping
 large changes to the protocol and user experience.
