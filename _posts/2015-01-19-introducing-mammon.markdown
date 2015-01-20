@@ -3,14 +3,14 @@ layout: post
 title: "Rethinking ircd"
 ---
 
+   [gh-ircmatch]: http://github.com/kaniini/ircmatch
+   [gh-ircreactor]: http://github.com/kaniini/ircreactor
+   [gh-mammon]: http://github.com/kaniini/mammon
+
 Lately I have been working on an ircd, initially to host the channels which will be moved from `irc.atheme.org` once it is terminated.
 The result of this work is three python packages: [ircmatch][gh-ircmatch], [ircreactor][gh-ircreactor], and [mammon][gh-mammon].  When combined,
 these provide a modular IRC implementation - `ircmatch` provides IRC hostmask matching and collapsing, `ircreactor` provides translation and manipulation of
 RFC1459 messages into an intermediate representation, and `mammon` brings it all together on top of Python 3.4's excellent `asyncio` framework.
-
-   [gh-ircmatch]: http://github.com/kaniini/ircmatch
-   [gh-ircreactor]: http://github.com/kaniini/ircreactor
-   [gh-mammon]: http://github.com/kaniini/mammon
 
 This post is long, and somewhat serves as a manifesto for the project, what we have in mind for both now and the future, and how all of this maps onto
 the [IRCv3 standardization effort][ircv3].  While I can only recommend reading the entire post, I can provide a good overview in a few buzzwords:
