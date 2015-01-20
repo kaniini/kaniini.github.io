@@ -8,16 +8,16 @@ The result of this work is three python packages: [ircmatch][gh-ircmatch], [ircr
 these provide a modular IRC implementation - `ircmatch` provides IRC hostmask matching and collapsing, `ircreactor` provides translation and manipulation of
 RFC1459 messages into an intermediate representation, and `mammon` brings it all together on top of Python 3.4's excellent `asyncio` framework.
 
-  [gh-ircmatch]: http://github.com/kaniini/ircmatch
-  [gh-ircreactor]: http://github.com/kaniini/ircreactor
-  [gh-mammon]: http://github.com/kaniini/mammon
+   [gh-ircmatch]: http://github.com/kaniini/ircmatch
+   [gh-ircreactor]: http://github.com/kaniini/ircreactor
+   [gh-mammon]: http://github.com/kaniini/mammon
 
 This post is long, and somewhat serves as a manifesto for the project, what we have in mind for both now and the future, and how all of this maps onto
 the [IRCv3 standardization effort][ircv3].  While I can only recommend reading the entire post, I can provide a good overview in a few buzzwords:
 server-side authentication without services, channel management which makes sense and protocol correctness verification.  The code is available if you want
 to play with it, and a server is running at `mouse.dereferenced.org:6667`, to prove that this is a real thing.
 
-  [ircv3]: http://ircv3.org/
+   [ircv3]: http://ircv3.org/
 
 ### the ircds of yesterday
 
@@ -83,4 +83,4 @@ allows for simpler implementations of features which depend on state in a way wh
 
 With any luck, mammon will be as influential as it's predecessor was.
 
-  [gh-mammon-1]: https://github.com/kaniini/mammon/issues/2
+   [gh-mammon-1]: https://github.com/kaniini/mammon/issues/2
