@@ -12,7 +12,7 @@ Recently a new IRC implementation called [RobustIRC](http://robustirc.net/) was 
 > will not notice when you roll out a new version or reboot the machine on which a particular
 > RobustIRC server is running.
 
-How interesting.  Sounds like they are claiming to provide full CAP tolerance (or at least the appearance thereof) to the user.  How does it work?  The YouTube video of the talk the author gives is somewhat interesting, and 
+How interesting.  Sounds like they are claiming to provide full CAP tolerance (or at least the appearance thereof) to the user.  How does it work?  The [YouTube video of the talk the author gives is somewhat interesting](https://www.youtube.com/watch?v=eTlVgrjoukQ), and
 describes an architecture not too dissimilar to the proposals for next-generation IRC server linking protocols.  Specifically, it has these properties of interest:
 
 * The server protocol is log-structured (RobustIRC uses Raft)
