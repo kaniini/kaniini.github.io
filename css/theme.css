@@ -50,7 +50,7 @@ body {
 canvas {
   top: 0px;
   width: 100%;
-  height: 10em;
+  min-height: 10em;
   z-index: -1;
 }
 
@@ -64,7 +64,7 @@ canvas {
 }
 
 .heading > h1 {
-  font-size: 375%;
+  font-size: 300%;
   padding: 0.15em;
 }
 
