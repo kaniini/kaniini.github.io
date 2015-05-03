@@ -23,6 +23,10 @@
   url: "http://github.com/kaniini/elasticsearch-eventlet"
   summary: "An asynchronous elasticsearch client designed to be used with eventlet."
 -
+  title: "IRCv3"
+  url: "http://ircv3.github.io/"
+  summary: "The IRCv3 organization defines the next revision of the IRC client protocol."
+-
   title: "keyvalued"
   url: "http://github.com/keyvalued/keyvalued"
   summary: "A lightweight key-value LRU cache designed for JSON document storage."
