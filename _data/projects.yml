@@ -1,0 +1,44 @@
+-
+  title: "Alpine Linux"
+  url: "http://www.alpinelinux.org/"
+  summary: "A linux distribution which uses the musl C library designed for high performance and security through minimalism in userspace."
+-
+  title: "Atheme"
+  url: "http://www.atheme.net/"
+  summary: "IRC services package which drove significant user experience changes in legacy IRC and started the IRCv3 working group."
+-
+  title: "Audacious"
+  url: "http://audacious-media-player.org/"
+  summary: "A multi-platform (X11, Windows, Mac) audio player which has wide format support."
+-
+  title: "charybdis"
+  url: "http://www.atheme.org/projects/charybdis.html"
+  summary: "The reference server implementation of the IRCv3.1 client protocol, used as a basis for many of the largest IRC networks."
+-
+  title: "DroneBL"
+  url: "http://www.dronebl.org/"
+  summary: "A realtime monitor of infected machines which provides protection for IRC, SMTP, SSH servers and more."
+-
+  title: "elasticsearch-eventlet"
+  url: "http://github.com/kaniini/elasticsearch-eventlet"
+  summary: "An asynchronous elasticsearch client designed to be used with eventlet."
+-
+  title: "keyvalued"
+  url: "http://github.com/keyvalued/keyvalued"
+  summary: "A lightweight key-value LRU cache designed for JSON document storage."
+-
+  title: "libguess"
+  url: "http://github.com/kaniini/libguess"
+  summary: "High performance character set determination for most language families."
+-
+  title: "mammon"
+  url: "http://www.mammon.io/"
+  summary: "A work-in-progress replacement for the legacy IRC stack which is built from a modern features first perspective."
+-
+  title: "pkgconf"
+  url: "http://github.com/pkgconf/pkgconf"
+  summary: "A replacement for pkg-config which is used in many distributions and operating systems such as FreeBSD and Alpine."
+-
+  title: "slabbed-or-not"
+  url: "http://github.com/kaniini/slabbed-or-not"
+  summary: "A tool for determining whether or not your cheap lowendbox.com vps is really running inside a hypervisor (slabbing)."
