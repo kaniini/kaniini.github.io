@@ -4,8 +4,6 @@ title: "About kaniini"
 permalink: /about.html
 ---
 
-# About kaniini
-
 A [rabbit pretending to be a person](http://en.wikipedia.org/wiki/Therianthropy), kaniini is very strange.
 
 You might find them in a forest, or something.  Unfortunately, it's more likely that you'll find them in a datacentre.

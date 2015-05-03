@@ -18,11 +18,15 @@
         <!-- theme -->
         <link rel="stylesheet" href="/css/theme.css">
 
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="/js/plasma.js"></script>
     </head>
     <body>
        <header>
-         <nav class="navbar navbar-default">
+         <nav class="navbar navbar-default navbar-fixed-top">
            <div class="navbar-header">
              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links">
                <span class="sr-only">Toggle navigation</span>
@@ -41,6 +45,15 @@
            </div>
          </div>
        </header>
+       <div class="container-heading">
+         <div class="heading">
+           <h1>
+               {{ page.title }}
+               {% if page.date %}<span class="pull-right"><small>{{ page.date | date_to_string }}</small></span>{% endif %}
+           </h1>
+         </div>
+         <canvas id="canvas"></canvas>
+       </div>
        <div class="container-fluid">
          <div id="content">
            {{ content }}

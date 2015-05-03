@@ -42,3 +42,32 @@ body {
   font-family: "Open Sans";
   font-weight: 300;
 }
+
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+canvas {
+  top: 0px;
+  width: 100%;
+  height: 10em;
+  z-index: -1;
+}
+
+.heading {
+  position: relative;
+  z-index: 1000;
+  background: #000;
+  opacity: 0.75;
+  color: #fff;
+  top: 150px;
+}
+
+.heading > h1 {
+  font-size: 375%;
+  padding: 0.15em;
+}
+
+.container-heading {
+  margin-top: -55px !important;
+}
