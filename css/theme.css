@@ -1,5 +1,5 @@
 .navbar-default {
-  background: #2c3e50 !important;
+  background: rgba(44, 62, 80, 0.8) !important;
   border: 0 !important;
   border-radius: 0 !important;
   font-family: Roboto;
@@ -7,7 +7,7 @@
 }
 
 .navbar-default .navbar-header {
-  background: #355677 !important;
+  background: rgba(53, 86, 119, 0.5) !important;
   color: #eee;
 }
 
@@ -50,7 +50,7 @@ body {
 canvas {
   top: 0px;
   width: 100%;
-  min-height: 10em;
+  min-height: 12em;
   z-index: -1;
 }
 
@@ -60,7 +60,7 @@ canvas {
   background: #000;
   opacity: 0.75;
   color: #fff;
-  top: 160px;
+  top: 178px;
 }
 
 .heading > h1 {
@@ -69,5 +69,5 @@ canvas {
 }
 
 .container-heading {
-  margin-top: -40px !important;
+  margin-top: -90px !important;
 }
