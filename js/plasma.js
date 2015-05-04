@@ -4,7 +4,7 @@ function simulation (canvas) {
   var steps = 0;
   
   /* precalc all the things! */
-  var pwidth = 128, pheight = 8;
+  var pwidth = 128, pheight = 9;
   var vpx = canvas.width/pwidth, vpy = canvas.height/pheight;
   var last_fps = 0;
 
