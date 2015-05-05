@@ -71,3 +71,12 @@ canvas {
 .container-heading {
   margin-top: -90px !important;
 }
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.container-fluid .row-fluid .col-md-6 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
