@@ -76,7 +76,7 @@ canvas {
   padding: 0 !important;
 }
 
-.container-fluid .row-fluid .col-md-6 {
+.container-fluid .row-fluid .col-md-6, .content {
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
