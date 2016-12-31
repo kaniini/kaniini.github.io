@@ -1,0 +1,42 @@
+---
+layout: post
+title: "pkgconf 1.1.0 release and new kaniiniware bug bounty program!!!"
+---
+
+To kick off the 2017 year, I have released [pkgconf 1.1.0](https://distfiles.dereferenced.org/pkgconf/pkgconf-1.1.0.tar.xz).
+
+In terms of critical impact, the pkgconf 1.1 release series is likely one of the most major releases we have done over the course
+of the project, and I'm quite serious about that: as of pkgconf 1.1, *we have introduced many new features that were never properly
+implemented in the original pkg-config utility*.  But that's just the beginning, lets look at a summary of changes since the 1.0
+series:
+
+ * new `Provides` rule support which brings `--print-provides` to it's fullest potential
+ * learning of path lists from toolchain environment variables to make the toolchain include flag filtering more accurate
+ * the `--pure` flag which brings more of the pkgconf linker flag optimizations to `--static`
+ * a new, more robust `.pc` file parser
+ * better handling of toolchain flag grouping like `-isystem`, `-idirafter`, `-Bdynamic` and `-Bstatic`, as well as any `-Wl` options
+ * deduplication of path lists by device node and inode
+ * a new testsuite based on [kyua](https://github.com/jmmv/kyua), the BSD testing framework
+ * a fully stable `libpkgconf` API and ABI, with [documentation](http://pkgconf.readthedocs.io)!
+ * last but not least, [Perl bindings](https://github.com/plicease/PkgConfig-LibPkgConf) already!
+
+As usual, it couldn't have been done [without the help of so many people][pkgconf-contributors], and we still have a ways to go before
+the full potential of `libpkgconf` is realised.  Between building new bindings to `libpkgconf`, upgrading distributions from either old
+versions of pkgconf or pkg-config, and improving the `.pc` file format, there's lots of work for us to do in the new year!
+
+   [pkgconf-contributors]: https://github.com/pkgconf/pkgconf/graphs/contributors
+
+This brings me to my next point...
+
+### new kaniiniware bug bounty program!
+
+I am launching a bug bounty program for all of the software I presently maintain.
+(This does not include software that I have passed maintainership to other people, such as charybdis, atheme and the other IRC software.)
+
+Here's the deal with *that*: find a *security bug*, find a *normal bug* in the *code* then *patch it* and *get your patch landed*, or
+*significantly improve documentation* in software I maintain, and you're entitled to receive a stuffed rabbit sent to your house via Amazon.
+The size and price of said stuffed rabbit is dependent on overall severity/impact of the bug/contribution.  Simply add it to an Amazon wishlist
+with your shipping address attached and mention it in your bug report or pull request.  If the pull request or bug report qualifies,
+the rabbit will be sent to you ASAP.  If for some reason you don't happen to like rabbits, an alternative stuffed animal is ok too!
+
+No *really*, that *isn't a joke*.  Consider it a token of gratitude for your contribution to the project!
