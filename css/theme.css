@@ -1,5 +1,5 @@
 .navbar-default {
-  background: rgba(44, 62, 80, 0.8) !important;
+  background: rgba(44, 62, 80, 1.0) !important;
   border: 0 !important;
   border-radius: 0 !important;
   font-family: Roboto;
@@ -7,7 +7,7 @@
 }
 
 .navbar-default .navbar-header {
-  background: rgba(53, 86, 119, 0.5) !important;
+  background: rgba(53, 86, 119, 1.0) !important;
   color: #eee;
 }
 
@@ -55,12 +55,8 @@ canvas {
 }
 
 .heading {
-  position: relative;
-  z-index: 1000;
   background: #000;
-  opacity: 0.75;
-  color: #fff;
-  top: 178px;
+  color: #eee;
 }
 
 .heading > h1 {
@@ -69,7 +65,7 @@ canvas {
 }
 
 .container-heading {
-  margin-top: -90px !important;
+  margin-top: 50px;
 }
 
 .container-fluid {
