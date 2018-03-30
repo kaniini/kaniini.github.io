@@ -75,4 +75,5 @@ canvas {
 .container-fluid .row-fluid .col-md-6, .content {
   padding-left: 10px !important;
   padding-right: 10px !important;
+  max-width: 60em;
 }
